@@ -100,7 +100,7 @@ export default function About() {
             <p className="font-mono-brand text-[11px] tracking-widest uppercase text-cream mb-2">Who We Are</p>
             <h1 className="font-display text-5xl font-semibold text-white mb-3">About the Club</h1>
             <p className="font-body text-white/70 max-w-xl text-lg">
-              A non-profit community organization dedicated to growing disc golf on the Peninsula since 2008.
+              A non-profit community organization dedicated to growing disc golf on the Peninsula since 2007.
             </p>
           </div>
         </div>
