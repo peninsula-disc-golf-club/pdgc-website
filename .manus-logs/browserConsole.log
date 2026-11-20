@@ -440,3 +440,18 @@
 [2026-11-19T23:27:30.849Z] {"timestamp":1795130849628,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
 [2026-11-19T23:29:44.359Z] {"timestamp":1795130979316,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/About.tsx"],"stack":null}
 [2026-11-19T23:29:44.359Z] {"timestamp":1795130979316,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-11-20T16:45:04.597Z] {"timestamp":1795193102593,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-11-20T16:45:04.597Z] {"timestamp":1795193102609,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-11-20T16:45:04.597Z] {"timestamp":1795193103069,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-11-20T16:46:22.703Z] {"timestamp":1795193179953,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-11-20T16:46:22.703Z] {"timestamp":1795193179953,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Footer.tsx"],"stack":null}
+[2026-11-20T16:46:48.597Z] {"timestamp":1795193207029,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-11-20T16:46:48.597Z] {"timestamp":1795193207029,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Footer.tsx"],"stack":null}
+[2026-11-20T16:47:02.644Z] {"timestamp":1795193222080,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-11-20T16:47:02.644Z] {"timestamp":1795193222080,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Footer.tsx"],"stack":null}
+[2026-11-20T16:47:10.595Z] {"timestamp":1795193229333,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-11-20T16:47:10.595Z] {"timestamp":1795193229333,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Footer.tsx"],"stack":null}
+[2026-11-20T16:47:10.595Z] {"timestamp":1795193229448,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-11-20T16:47:10.595Z] {"timestamp":1795193229448,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Footer.tsx"],"stack":null}
+[2026-11-20T16:47:18.634Z] {"timestamp":1795193238621,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-11-20T16:47:18.634Z] {"timestamp":1795193238622,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Footer.tsx"],"stack":null}

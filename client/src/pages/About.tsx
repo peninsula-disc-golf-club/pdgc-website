@@ -118,7 +118,12 @@ export default function About() {
               Our mission is to promote, develop, and sustain disc golf on the Peninsula through community events, course stewardship, youth education, and advocacy for new course development. We believe disc golf has a unique power to bring people together across generations and backgrounds.
             </p>
             <p className="font-body text-ink leading-relaxed">
-              The Peninsula Disc Golf Club was formed in 2008 and ran a couple of tournaments with temporary layouts at Pescadero Creek County Park. In September 2021, the club installed concrete teepads at the Emerald Hills Disc Golf Course, marking a major milestone in establishing permanent disc golf infrastructure on the Peninsula.
+              The Peninsula Disc Golf Club was formed in 2007, laying the foundations for the sport in the area by running
+              tournaments in county parks like Pescadero Creek. Eight years later, baskets and tee pads were installed at
+              the Emerald Hills Disc Golf Course, marking a major milestone in establishing permanent disc golf infrastructure
+              on the Peninsula. The club has run highly popular singles and doubles leagues as well as three PDGA-sanctioned
+              tournaments. In 2026, Coyote Point Disc Golf Course became the newest permanent addition to the Peninsula,
+              offering an experience in which players of all skill levels can find joy.
             </p>
           </div>
 
