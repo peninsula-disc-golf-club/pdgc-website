@@ -5,8 +5,9 @@
 
 import { Link } from "wouter";
 import { Mail, MapPin, Facebook, Instagram } from "lucide-react";
+import { publicAsset } from "@/lib/utils";
 
-const LOGO_IMAGE = "/logos/PDGC_Primary_Stacked_OneColor_White_72ppi.png";
+const LOGO_IMAGE = publicAsset("logos/PDGC_Primary_Stacked_OneColor_White_72ppi.png");
 
 export default function Footer() {
   return (

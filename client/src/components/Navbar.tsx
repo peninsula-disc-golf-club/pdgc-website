@@ -7,8 +7,9 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "wouter";
 import { Menu, X } from "lucide-react";
+import { publicAsset } from "@/lib/utils";
 
-const LOGO_IMAGE = "/logos/PDGC_PrimaryHorz_OneColor_White_72ppi.png";
+const LOGO_IMAGE = publicAsset("logos/PDGC_PrimaryHorz_OneColor_White_72ppi.png");
 
 const navLinks = [
   { href: "/", label: "Home" },
@@ -19,6 +20,7 @@ const navLinks = [
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [location] = useLocation();
+  const currentPath = location.replace(/\/$/, "") || "/";
 
   useEffect(() => {
     setMenuOpen(false);
@@ -41,13 +43,13 @@ export default function Navbar() {
               key={link.href}
               href={link.href}
               className={`px-4 py-2 font-body text-sm font-700 tracking-wide transition-colors rounded-sm relative group ${
-                location === link.href
+                currentPath === link.href
                   ? "text-cream"
                   : "text-white/80 hover:text-white"
               }`}
             >
               {link.label}
-              {location === link.href && (
+              {currentPath === link.href && (
                 <span className="absolute bottom-0 left-4 right-4 h-0.5 bg-brand-red rounded-full" />
               )}
             </Link>
@@ -79,7 +81,7 @@ export default function Navbar() {
                 key={link.href}
                 href={link.href}
                 className={`px-3 py-3 font-body text-base transition-colors border-b border-white/5 ${
-                  location === link.href
+                  currentPath === link.href
                     ? "text-cream font-bold"
                     : "text-white/80 hover:text-white"
                 }`}

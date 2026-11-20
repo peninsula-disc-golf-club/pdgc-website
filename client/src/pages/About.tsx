@@ -9,10 +9,11 @@ import { Link } from "wouter";
 import { Heart, TreePine, Users, TrendingUp, ArrowRight, Mail, ExternalLink } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import { publicAsset } from "@/lib/utils";
 
-const ABOUT_IMAGE = "/images/eh_devin_hole4.jpg";
+const ABOUT_IMAGE = publicAsset("images/eh_devin_hole4.jpg");
 const COMMUNITY_IMAGE = "https://d2xsxph8kpxj0f.cloudfront.net/310519663521680723/4LmVc63AAJJPPDnm7ZNEvC/community-event-D6xB3opW72GX3UimDuQH5d.webp";
-const LOGO_IMAGE = "/logos/PDGC_Primary_Stacked_FullColor_72ppi.png";
+const LOGO_IMAGE = publicAsset("logos/PDGC_Primary_Stacked_FullColor_72ppi.png");
 
 const values = [
   {
@@ -40,7 +41,7 @@ const values = [
 const courses = [
   {
     name: "Emerald Hills Golf Course",
-    image: "/images/eh-1.jpg",
+    image: publicAsset("images/eh-1.jpg"),
     udiscUrl: "https://udisc.com/courses/emerald-hills-golf-course-GDDQ",
     established: 2015,
     description:
@@ -48,7 +49,7 @@ const courses = [
   },
   {
     name: "Coyote Point Disc Golf Course",
-    image: "/images/coyote-point-1.jpg",
+    image: publicAsset("images/coyote-point-1.jpg"),
     udiscUrl: "https://udisc.com/courses/coyote-point-disc-golf-course-2TCY",
     established: 2026,
     description:

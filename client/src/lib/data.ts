@@ -3,6 +3,8 @@
 // Design: Outdoor Adventure Editorial
 // ============================================================
 
+import { publicAsset } from "@/lib/utils";
+
 export interface Event {
   id: string;
   title: string;
@@ -61,7 +63,7 @@ export const events: Event[] = [
     registrationLabel: "Udisc Event",
     directionsUrl: "https://maps.app.goo.gl/jCxhowx5SmVsJvvE6",
     customDateDisplay: "Tuesdays and Thursdays Year Round",
-    image: "/images/eh_conrad_hole16.jpg",
+    image: publicAsset("images/eh_conrad_hole16.jpg"),
   },
 
   {
@@ -79,7 +81,7 @@ export const events: Event[] = [
     registrationLabel: "Udisc Event",
     directionsUrl: "https://maps.app.goo.gl/a3NoNVeX1eCMUioi7",
     customDateDisplay: "Mondays from April to September",
-    image: "/images/vm_doubles.jpg",
+    image: publicAsset("images/vm_doubles.jpg"),
     hibernating: true,
   },
   {
@@ -304,7 +306,7 @@ Jim came up clutch yesterday with an impressive bogey-free -3 (59, UDisc 222) in
 Conrad has been on a tear all winter. His -12 (52, UDisc 265) on Tuesday matched Jon Sturholm's layout record from February 12.
 
 The Spring League starts on Tuesday March 10th. The league standings are reset. Get on out to the course and stake your claim as a 2026 Peninsula Disc Golf Club Spring League champion!`,
-    image: "/images/eh_pond_hole3.jpg",
+    image: publicAsset("images/eh_pond_hole3.jpg"),
   }
 ];
 

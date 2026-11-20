@@ -8,10 +8,11 @@ import { useState } from "react";
 import { Calendar, MapPin, Clock, Users, DollarSign, ChevronRight, Filter } from "lucide-react";
 import { events, categoryColors, categoryLabels, formatDate, formatShortDate } from "@/lib/data";
 import type { Event } from "@/lib/data";
+import { publicAsset } from "@/lib/utils";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
-const COURSE_IMAGE = "/images/eh_ctp_hole9.jpg";
+const COURSE_IMAGE = publicAsset("images/eh_ctp_hole9.jpg");
 
 const categories: Array<{ value: string; label: string }> = [
   { value: "all", label: "All Events" },
