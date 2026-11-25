@@ -103,11 +103,20 @@ export default function Footer() {
 
       {/* Bottom bar */}
       <div className="border-t border-white/10">
-        <div className="container py-4 flex flex-col sm:flex-row items-center justify-between gap-2">
-          <p className="font-body text-xs text-white/40">
+        <div className="container py-4 flex flex-col lg:flex-row items-center lg:justify-between gap-x-6 gap-y-2 text-center lg:text-left font-body text-xs text-white/40">
+          <p>
             © {new Date().getFullYear()} Peninsula Disc Golf Club. A 501(c)(3)
             Non-Profit Organization.
           </p>
+          <div className="flex flex-col sm:flex-row items-center gap-x-3 gap-y-1">
+            <span>EIN 41-5237729</span>
+            <span aria-hidden="true" className="hidden sm:inline text-white/20">
+              ·
+            </span>
+            <address className="not-italic">
+              730 Cowper Street, Palo Alto, CA 94301
+            </address>
+          </div>
         </div>
       </div>
     </footer>
