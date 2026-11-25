@@ -77,7 +77,7 @@ export default function Footer() {
             </p>
             <div>
               <a
-                href="https://www.facebook.com/groups/peninsuladiscgolf"
+                href="https://www.facebook.com/groups/peninsuladgc"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-4 py-2 rounded bg-brand-red hover:bg-brand-red-dark text-white font-body text-sm transition-colors"
